@@ -1,0 +1,11 @@
+#app{
+  text-align: center;
+  color:#ffaaffaa;
+}
+:fullscreen {
+  font-style: italic;
+}
+.content {
+  user-select: none;
+  transition: all 2s linear;
+}

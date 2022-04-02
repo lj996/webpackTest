@@ -1,0 +1,17 @@
+:-webkit-full-screen {
+  font-style: italic;
+}
+:-ms-fullscreen {
+  font-style: italic;
+}
+:fullscreen {
+  font-style: italic;
+}
+.content {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: all 2s linear;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNzcy90ZXN0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFrQjtBQUNwQjtBQUZBO0VBQ0Usa0JBQWtCO0FBQ3BCO0FBRkE7RUFDRSxrQkFBa0I7QUFDcEI7QUFDQTtFQUNFLHlCQUFpQjtLQUFqQixzQkFBaUI7TUFBakIscUJBQWlCO1VBQWpCLGlCQUFpQjtFQUNqQix5QkFBeUI7QUFDM0IiLCJmaWxlIjoicmVzdWx0LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjpmdWxsc2NyZWVuIHtcbiAgZm9udC1zdHlsZTogaXRhbGljO1xufVxuLmNvbnRlbnQge1xuICB1c2VyLXNlbGVjdDogbm9uZTtcbiAgdHJhbnNpdGlvbjogYWxsIDJzIGxpbmVhcjtcbn0iXX0= */

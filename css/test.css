@@ -1,0 +1,7 @@
+:fullscreen {
+  font-style: italic;
+}
+.content {
+  user-select: none;
+  transition: all 2s linear;
+}

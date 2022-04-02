@@ -1,0 +1,5 @@
+.bg-div {
+  display: inline-block;
+  background: no-repeat url('../img/test1.png');
+  background-size: contain;
+}
