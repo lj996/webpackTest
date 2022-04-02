@@ -1,4 +1,4 @@
-import img from './img/图搜skc测试图片.png';
+import img from './img/冰墩墩.jpeg';
 import './css/components.css';
 
 const a = 1;
