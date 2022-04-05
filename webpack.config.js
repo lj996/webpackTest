@@ -1,10 +1,11 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MdToHtmlPlugin = require('./plugins/md-to-html-plugin')
 
 module.exports = {
   mode: 'development',
-  devtool: 'cheap-source-map',
+  // devtool: 'cheap-source-map', 
   // JavaScript 执行入口文件
   entry: './main.js',
   output: {
@@ -80,5 +81,9 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin(),
+    new MdToHtmlPlugin({
+      template: path.join(__dirname, 'test.md'),
+      filename: 'test.html'
+    })
   ]
 };
